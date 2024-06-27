@@ -1,0 +1,41 @@
+{
+  "name": "drunkdeer-auto-profile-changer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri-dev": "tauri dev"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.15.20",
+    "@tauri-apps/api": "^1.5.6",
+    "@tauri-apps/plugin-os": "^2.0.0-beta.5",
+    "@types/w3c-web-hid": "^1.0.6",
+    "encoding-japanese": "^2.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "v6",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1",
+    "@types/encoding-japanese": "^2.0.5",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "clsx": "^2.1.1",
+    "postcss": "^8.4.38",
+    "prettier": "^3.3.2",
+    "tailwind-merge": "^2.3.0",
+    "typescript": "^5.0.2",
+    "vite": "^5.0.0"
+  }
+}
